@@ -57,12 +57,8 @@ int main()
 {
 Matrix A(1, 2, 3, 4);
 Matrix B(5, 6, 7, 8);
-
-
-
 Matrix sum = A + B;
 Matrix product = A * B;
-// Unit Tests
 assert(sum[0][0] == 6);
 assert(sum[1][1] == 12);
 assert(product[0][0] == 19);
@@ -73,7 +69,6 @@ cout << "Matrix A:" << endl;
 cout << A;
 cout << "Matrix B:" << endl;
 cout << B;
-
 cout << "Addition of Matrices:" << endl;
 cout << sum;
 cout << "Multiplication of Matrices:" << endl;
